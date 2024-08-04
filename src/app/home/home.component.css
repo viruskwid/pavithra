@@ -1,0 +1,110 @@
+.logo{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(8, 164, 8);
+    
+}
+/* Make the navbar responsive */
+.navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    font-size: 1rem;
+  }
+  
+  /* Make the carousel responsive */
+  .carousel {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    /* Make the navbar smaller on smaller screens */
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  
+    .navbar-nav {
+      font-size: 0.8rem;
+    }
+  
+    /* Make the carousel smaller on smaller screens */
+    .carousel {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Make the navbar even smaller on very small screens */
+    .navbar-brand {
+      font-size: 0.8rem;
+    }
+  
+    .navbar-nav {
+      font-size: 0.6rem;
+    }
+
+    /* Make the carousel even smaller on very small screens */
+    .carousel {
+      height: 150px;
+    }
+  }
+  h6 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #070707;
+    font-size: 13pt;
+  }
+  
+  h6::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #2b773e;
+  }
+  
+  .btn-primary {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004d7a;
+    border-color: #004d7a;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+ 
+.order-now-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: 2px solid #333; /* Black border */
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-now-btn:hover {
+    background-color: #27b72e; /* Darker green on hover */
+    border-color: #555; /* Darker black border on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order-now-btn:active {
+    background-color: #27b72e; /* Even darker green on click */
+    border-color: #444; /* Darker black border on click */
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

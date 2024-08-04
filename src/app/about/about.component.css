@@ -1,0 +1,94 @@
+h5 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #070707;
+    font-size: 5pt;
+  }
+  
+  h5::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #18732f;
+  }
+
+  .full-height {
+    height: 100%;
+  }
+  
+  .container-fluid {
+    background: linear-gradient(135deg, #82ca43, #0c4b14);
+  }
+  
+  .custom-card {
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .title {
+    color: #097e16;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+  }
+  
+  .description {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 20px;
+    }
+    .description {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-card {
+      padding: 15px;
+    }
+    .title {
+      font-size: 18px;
+    }
+    .description {
+      font-size: 12px;
+    }
+  }
+  .btn-custom {
+    background-color: #2E865F; /* Dark Green */
+    color: #fff; /* White */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Black Shadow */
+  }
+  
+  .btn-custom:hover {
+    background-color: #1B5E4F; /* Darker Green */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Darker Shadow */
+  }
+  
+  .btn-custom i {
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn-custom:hover i {
+    transform: rotate(90deg);
+  }
+  
+  /* Add a subtle animation on click */
+  .btn-custom:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }

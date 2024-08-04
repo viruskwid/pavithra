@@ -1,0 +1,55 @@
+/* Make the carousel images responsive */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Make the carousel captions responsive */
+  .carousel-caption {
+    font-size: 1.5rem;
+  }
+  
+  /* Make the carousel controls responsive */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    /* Make the carousel images smaller on smaller screens */
+    .carousel-inner img {
+      height: 350px;
+      object-fit: cover;
+    }
+  
+    /* Make the carousel captions smaller on smaller screens */
+    .carousel-caption {
+      font-size: 1rem;
+    }
+  
+    /* Make the carousel controls smaller on smaller screens */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 15%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Make the carousel images even smaller on very small screens */
+    .carousel-inner img {
+      height: 250px;
+      object-fit: cover;
+    }
+  
+    /* Make the carousel captions even smaller on very small screens */
+    .carousel-caption {
+      font-size: 0.8rem;
+    }
+  
+    /* Make the carousel controls even smaller on very small screens */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 20%;
+    }
+  }

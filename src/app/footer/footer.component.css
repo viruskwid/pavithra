@@ -1,0 +1,40 @@
+/* Add this CSS to make the layout responsive */
+@media (max-width: 768px) {
+    .det {
+      flex-direction: column;
+    }
+    .w-25 {
+      width: 100%;
+    }
+    .me-3 {
+      margin-right: 0;
+    }
+    .d-flex {
+      flex-direction: column;
+    }
+    .justify-content-between {
+      justify-content: center;
+    }
+    .align-items-center {
+      align-items: center;
+    }
+    .p-3 {
+      padding: 1rem;
+    }
+    .mb-2 {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Add this CSS to make the font size responsive */
+  @media (max-width: 480px) {
+    h6 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 1rem;
+    }
+  }
